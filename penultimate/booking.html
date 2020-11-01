@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Book online</title>
+    <link href="./booking.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+
+    <a href="WeCareForU.html"><button class= butt_home id="home" > Home </button></a>
+    </br>
+    <p class="header">Fill in the form</p>
+    </br>
+    <div class="Requirements">
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                    <input id="name" placeholder="Menna" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age:</label>
+                    <input placeholder="19" id="age" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                    <input id="email" placeholder="example@gmail.com" type="email" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                    <label for="Choose">Specialization:</label>
+                    <input placeholder="choose from the list" list="Specialization" name="Choose" id="Choose">
+                    <datalist id="Specialization">
+                          <option value="Emergency Medicine">
+                          <option value="Family Physicians">
+                          <option value="Internists">
+                          <option value="Obstetricians and Gynecologists">
+                          <option value="Otolaryngologists">
+                        </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Address">Address:</label>
+                    <input id="Address" placeholder="El-Rehani street , Giza" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Doc">Doctor:</label>
+
+                    <input placeholder="choose from the list" list="Names" name="Doc" id="Doc">
+                    <datalist id="Names">
+                          <option value="Dr Menna Ahmed">
+                          <option value="Dr Salma Omera">
+                          <option value="Dr Salma Ali">
+                          <option value="Dr Mahdy">
+                          <option value="Dr Omar Abdullah">
+                        </datalist>
+                </td>
+            </tr>
+
+        </table>
+        <a href="booking.html"><button class="Submit">Submit</button></a>
+    </div>
+
+
+
+</body>
+
+</html>

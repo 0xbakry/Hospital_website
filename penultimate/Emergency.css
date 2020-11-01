@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/Emergency_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.header {
+    text-align: top;
+    font-size: 200%;
+    text-shadow: rgb(151, 65, 231);
+    color: black;
+}
+
+.header p {
+    text-shadow: rgb(151, 65, 231);
+    color: black;
+}
+
+.Requirements {
+    border-radius: 10px;
+    padding: 20px 20px;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(114, 219, 179, 0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.labl {
+    position: absolute;
+    right: 2vw;
+}
+
+.Submit {
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    width: fit-content;
+    height: 50px;
+    width: 60px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(38, 5, 58);
+    color: rgb(188, 195, 201);
+}
+
+.Redirect {
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    width: fit-content;
+    height: 50px;
+    width: 60px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(38, 5, 58);
+    color: rgb(188, 195, 201);
+}
+
+.butt_home {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(129, 164, 179);
+    border-radius: 50%;
+    border: none;
+    margin: 30px;
+    padding: 30px 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(109, 158, 223);
+    font-size: 130%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.butt_home:focus {
+    transition: 0.5s;
+    outline: none;
+}
+
+.butt_home:hover {
+    opacity: 1;
+    transition: 0.5s;
+    outline: none;
+    box-shadow: 10px 10px 10px rgb(21, 98, 117), 10px 10px 10px rgb(12, 72, 87);
+}

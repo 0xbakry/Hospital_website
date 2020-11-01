@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>احجز الآن</title>
+    <link href="./booking.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+
+    <a href="WeCareForU_Arabic.html"><button class= butt_home id="home" > الرئيسية </button></a>
+    </br>
+    <p class="header">الرجاء ملء جميع البيانات بالأسفل</p>
+    </br>
+    <div class="Requirements" style="width: 20vw;">
+        <table>
+            <tr>
+                <td>
+                    <label for="name" style="position: absolute; right: 0; margin:4px;"> : الاسم</label>
+                    <input id="name" placeholder="منة " type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age" style="position: absolute; right: 0; margin:4px;"> : السن</label>
+                    <input placeholder="19" id="age" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email" style="position: absolute; right: 0; margin:4px;"> : الإيميل</label>
+                    <input id="email" placeholder="example@gmail.com" type="email" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                    <label for="Choose" style="position: absolute; right: 0; margin:4px; font-size: 92%;">:التخصصات</label>
+                    <input placeholder="أختر من القائمة" list="Specialization" name="Choose" id="Choose">
+                    <datalist id="Specialization">
+                          <option value="طوارئ">
+                          <option value="أطباء الأسرة">
+                          <option value="باطنة">
+                          <option value="نساء وتوليد">
+                          <option value="أنف وأذن وحنجرة">
+                        </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Address" style="position: absolute; right: 0; margin:4px;"> : العنوان </label>
+                    <input id="Address" placeholder="شارع الريحاني،الجيزة" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Doc" style="position: absolute; right: 0;"> : الطبيب</label>
+
+                    <input placeholder=" أختر من القائمة " list="Names " name="Doc " id="Doc ">
+                    <datalist id="Names ">
+                          <option value="Dr Menna Ahmed ">
+                          <option value="Dr Salma Omera ">
+                          <option value="Dr Salma Ali ">
+                          <option value="Dr Mahdy ">
+                          <option value="Dr Omar Abdullah ">
+                        </datalist>
+                </td>
+            </tr>
+
+        </table>
+        <a href="booking_Arabic.html "><button class="Submit ">ارسال</button></a>
+    </div>
+
+
+
+</body>
+
+</html>

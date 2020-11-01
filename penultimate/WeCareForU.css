@@ -1,0 +1,107 @@
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-image: url("./images/hos5.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .heart {
+                position: relative;
+                height: 60vh;
+                width: 100%;
+                opacity: 0.8;
+                border-radius: 10%;
+            }
+            
+            .headerup {
+                padding: 40px 40px;
+                font-family: "Segoe UI", Verdana, Geneva, Tahoma, sans-serif;
+                font-style: "Bold";
+                opacity: 0.6;
+                font-size: 300%;
+                text-align: center;
+                color: white;
+            }
+            
+            .nav-bar {
+                width: 100%;
+                padding: 0px 20px;
+                position: fixed;
+                top: 0;
+                z-index: 1;
+            }
+            
+            .nav-bar ul {
+                left: 0;
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .nav-bar a button {
+                background-color: rgba(63, 142, 207, 0.6);
+                width: 10vw;
+                height: 10vh;
+                font-size: large;
+                outline: none;
+                border: none;
+                border-radius: 10px;
+            }
+            
+            .nav-bar button:hover {
+                background-color: rgb(146, 215, 236);
+                text-decoration: double;
+                color: rgb(9, 19, 19);
+                cursor: pointer;
+                transition: 0.3s ease-in-out;
+            }
+            /*needs extra touches not completed yet .. menna */
+            
+            .imgs table {
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .imgs table a img {
+                border-radius: 10px;
+                margin: 0px 20px;
+            }
+            
+            .Emergency:hover {
+                box-shadow: 0px 0px 10px 10px lightpink;
+                opacity: 0.5;
+            }
+            
+            .Meetdoctors:hover {
+                box-shadow: 0px 0px 10px 10px lightpink;
+                opacity: 0.5;
+            }
+            
+            .booking:hover {
+                box-shadow: 0px 0px 10px 10px lightpink;
+                opacity: 0.5;
+            }
+            
+            .Arabic {
+                display: flex;
+                justify-content: left;
+            }
+
+                .Arabic button {
+                    width: 5vw;
+                    height: 8vh;
+                    position: absolute;
+                    top: 90vh;
+                    background-color: rgb(69, 69, 187, 0.5);
+                    color: aliceblue;
+                    font-size: 120;
+                    border: none;
+                    border-radius: 5px;
+                }
